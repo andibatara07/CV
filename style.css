@@ -1,0 +1,35 @@
+body {
+    
+        font-family: cursive;
+        color: black;
+        background-color: rgb(230, 207, 77);
+        margin-top:40px;
+        margin-left: 40px;
+    }
+        
+    h1 {
+        color: black;
+    }
+    a{
+        color: blue;
+    }
+    img {
+        margin-left:15px;
+        margin-top: 15px;
+        border-radius: 0%;
+        border-width: 100px;
+        border-color: darkorange;
+    }
+    
+    hr{
+        border: 0;
+    border-top:1px dashed #000000;
+    text-align:center;}
+    hr:after{
+        content: '\002702';
+        display:inline-block;
+        position: relative;
+        top:-11px;
+        padding:0 1px;
+        font-size:18px;
+    }
